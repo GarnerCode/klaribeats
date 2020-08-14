@@ -1,12 +1,16 @@
 /* Color Palette
-#F9ED69; - Main
-#F08A5D; - Secondary
-#B83B5E; - Trim
-#6A2C70; - Text
+#F9ED69;
+#F08A5D;
+#B83B5E;
+#6A2C70;
 */
 body {
     background-color: #F9ED69;
     font-family: 'Staatliches', cursive;
+}
+
+.content {
+    padding-bottom: 100px;
 }
 /* Navigation */
 .bg-light {
@@ -54,6 +58,46 @@ a.navbar-brand {
     font-size: 30px;
 }
 
+/* Panel */
+.panel {
+    background-color: #F08A5D;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 100px;
+    color: #F9ED69;
+}
+
+.panel h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.panel h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.panel h3 {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #B83B5E;
+    color: #F9ED69;
+}
+footer p, a {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+footer a {
+    color: #F9ED69;
+}
+
+footer a:hover {
+    color: #F08A5D;
+}
+
 /* Small devices (phones, 320px and up) */
 @media (min-width: 320px) {
     .navbar-brand {
@@ -74,6 +118,7 @@ a.navbar-brand {
     ...
 }
 
+/* Large devices (desktops, 760px and up) */
 @media (min-width: 760px) {
     .navbar-brand {
         font-size: 200px;
