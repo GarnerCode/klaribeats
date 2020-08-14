@@ -111,15 +111,32 @@ footer a:hover {
         padding-top: 0px;
         padding-left: 0px;
     }
+    iframe {
+        width: 100%;
+    }
 }
 
-/* Small-medium devices (large phones, 575px and up) */
+/* Medium devices (tablets, 575px and up) */
 @media (min-width: 575px) {
-    ...
+    .navbar-brand {
+        font-size: 90px;
+    }
 }
 
-/* Large devices (desktops, 760px and up) */
-@media (min-width: 760px) {
+/* Medium-large devices (large tablets, laptops, 800px and up) */
+@media (min-width: 800px) {
+    .navbar-brand {
+        font-size: 120px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding-top: 200px;
+        font-size: 40px;
+        padding-left: 20px;
+    }
+}
+
+/* Large devices (desktops, 1025px and up) */
+@media (min-width: 1025px) {
     .navbar-brand {
         font-size: 200px;
         color: #6A2C70!important;
