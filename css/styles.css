@@ -1,0 +1,76 @@
+/* Color Palette
+#F9ED69; - Main
+#F08A5D; - Secondary
+#B83B5E; - Trim
+#6A2C70; - Text
+*/
+body {
+    background-color: #F9ED69;
+    font-family: 'Staatliches', cursive;
+}
+/* Navigation */
+.bg-light {
+    background-color: #F08A5D!important;
+}
+
+.navbar-brand {
+    font-size: 200px;
+    color: #6A2C70!important;
+    text-shadow: 2px 2px 5px #F9ED69;
+    text-align: right;
+}
+
+a.navbar-brand {
+    width: 30%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #F9ED69;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #6A2C70;
+    font-size: 40px;
+    padding-top: 230px;
+    padding-left: 100px;
+}
+
+/* Small devices (phones, 320px and up) */
+@media (min-width: 320px) {
+    .navbar-brand {
+        font-size: 40px;
+    }
+    .navbar-brand img {
+        width: 110%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 30px;
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+
+/* Small-medium devices (large phones, 575px and up) */
+@media (min-width: 575px) {
+    ...
+}
+
+@media (min-width: 760px) {
+    .navbar-brand {
+        font-size: 200px;
+        color: #6A2C70!important;
+        text-shadow: 2px 2px 5px #F9ED69;
+        text-align: right;
+    }
+    a.navbar-brand {
+        width: 30%;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #6A2C70;
+        font-size: 40px;
+        margin-top: 230px;
+        margin-left: 100px;
+    }
+}
+
+
