@@ -35,6 +35,25 @@ a.navbar-brand {
     padding-left: 100px;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #B83B5E;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #B83B5E;
+    color: #F9ED69;
+}
+
+.display-4 {
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+    font-size: 30px;
+}
+
 /* Small devices (phones, 320px and up) */
 @media (min-width: 320px) {
     .navbar-brand {
