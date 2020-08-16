@@ -81,7 +81,6 @@ a.navbar-brand {
 }
 
 /* About Page */
-
 #rodger {
     background-color: #B83B5E;
     border: 20px solid #B83B5E;
@@ -91,10 +90,18 @@ a.navbar-brand {
     margin-left: 200px;
 }
 
-.about {
-    margin-top: 200px;
-    text-align: center;
+.about-text {
+    margin-top: 150px;
 }
+
+.about-text p {
+    font-size: 50px;
+}
+
+.about-panel {
+    margin-right: 100px;
+}
+
 
 /* Footer */
 footer {
@@ -130,12 +137,36 @@ footer a:hover {
     iframe {
         width: 100%;
     }
+    #rodger {
+        margin: 0px;
+        width: 90%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .about-text {
+        margin-top: 20px;
+    }
+    .about-text p {
+        font-size: 20px;
+    }
+    .about-panel {
+        margin-right: 0px;
+    }
+    .about-panel h1 {
+        font-size: 30px;
+    }
 }
 
 /* Medium devices (tablets, 575px and up) */
 @media (min-width: 575px) {
     .navbar-brand {
         font-size: 90px;
+    }
+    .about-text p {
+        font-size: 30px;
+    }
+    .about-panel h1 {
+        font-size: 50px;
     }
 }
 
@@ -167,6 +198,26 @@ footer a:hover {
         font-size: 40px;
         margin-top: 230px;
         margin-left: 100px;
+    }
+    #rodger {
+        background-color: #B83B5E;
+        border: 20px solid #B83B5E;
+        width: 50%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+    }
+    
+    .about-text {
+        margin-top: 150px;
+    }
+    
+    .about-text p {
+        font-size: 50px;
+    }
+    
+    .about-panel {
+        margin-right: 100px;
     }
 }
 
