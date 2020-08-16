@@ -80,6 +80,22 @@ a.navbar-brand {
     text-align: center;
 }
 
+/* About Page */
+
+#rodger {
+    background-color: #B83B5E;
+    border: 20px solid #B83B5E;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+
+.about {
+    margin-top: 200px;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     background-color: #B83B5E;
