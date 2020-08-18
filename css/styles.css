@@ -121,6 +121,10 @@ footer a:hover {
     color: #F08A5D;
 }
 
+.social {
+    font-size: 30px;
+}
+
 /* Small devices (phones, 320px and up) */
 @media (min-width: 320px) {
     .navbar-brand {
